@@ -12,9 +12,9 @@ This project based on Spring Boot, Spring Data + Hibernate H2 database (File sto
      - Login/Registration as a user (encode password in db)
      - Add/remove ADMIN rights to/from users can only OWNER (we need to hardcode one OWNER in db) 
      - Owner can block users. So they will not have a possibility to call APIs
-  2. Data Model User->OneToOne->Account->OneToMany->Orders (simple data, few fields -> productName,amount etc)<br> 
-     - User get can create an order and get/update/delete own. (Can not update/delete orders of other users)<br>
-     - Admin/Owner can get/update/delete all orders<br>
+  2. Data Model User->OneToOne->Account->OneToMany->Orders (simple data, few fields -> productName, amount etc)
+     - User get can create an order and get/update/delete own. (Can not update/delete orders of other users)
+     - Admin/Owner can get/update/delete all orders
 <hr>
 
 ### <a name="structure"></a>Project structure
