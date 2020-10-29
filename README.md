@@ -15,6 +15,8 @@ This project based on Spring Boot, Spring Data + Hibernate H2 database (File sto
   2. Data Model User->OneToOne->Account->OneToMany->Orders (simple data, few fields -> productName, amount etc)
      - User get can create an order and get/update/delete own. (Can not update/delete orders of other users)
      - Admin/Owner can get/update/delete all orders
+     
+By default, owner will be generated: login = "owner", password = "1234".
 <hr>
 
 ### <a name="structure"></a>Project structure
